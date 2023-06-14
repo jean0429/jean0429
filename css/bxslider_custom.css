@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#section02 .bx-wrapper {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#section04 .bx-wrapper {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    bottom: 10px;
+    text-align: left;
+}

@@ -5,8 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (1)//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (1)//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)//favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io (1)/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Jin's PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="./css/main_style.css">
+    <link rel="stylesheet" href="./css/bxslider_custom.css">
+
 </head>
 
 <body>
@@ -31,7 +40,7 @@
         <main>
 
             <section id="About" class="about">
-                <h2>Hello!!</h2>
+                <h1>Hello!!</h1>
                 <div>
                     <div class="puzzle1"><a href="#"><img src="./images/Vector-1.png" alt=""></a></div>
                     <div class="puzzle2"><a href="#"><img src="./images/Vector-2.png" alt=""></a></div>
@@ -60,7 +69,14 @@
                     </article>
                     <article class="text">
                         <div class="text_01">
-                            <div class="text1"><a href="#"><img src="./images/Group 115.png" alt=""></a></div>
+                            <div class="text1"><a href="#"><img src="./images/Group 115.png" alt=""></a>
+                                <div><a href="#"><img src="./images/menu.png" alt=""></a></div>
+                                <div><a href="#"><img src="./images/menu2.png" alt=""></a></div>
+                                <div><a href="#"><img src="./images/menu3.png" alt=""></a></div>
+                                <div><a href="#"><img src="./images/menu4.png" alt=""></a></div>
+                                <div><a href="#"><img src="./images/menu5.png" alt=""></a></div>
+                                <div><a href="#"><img src="./images/menu6.png" alt=""></a></div>
+                            </div>
                             <div class="text2"><a href="#"><img src="./images/Group 116.png" alt=""></a></div>
                             <div class="text3"><a href="#"><img src="./images/Group 117.png" alt=""></a></div>
                             <!-- <div class="text4"><a href="#"><img src="./images/4isomatric.png" alt=""></a></div>
@@ -71,16 +87,15 @@
                 </div>
             </section>
             <section id="Design2" class="design2">
-                <h2>Design</h2>
+                <!-- <h2>Design</h2> -->
                 <div>
                     <article class="work2">
-                        <div class="work_02">
+                        <div class="work_02  slider">
                             <div class="hov"> <a href="#"><img src="./images/달리는행운.png" alt=""></a></div>
                             <div class="hov1"> <a href="#"><img src="./images/달리는행운2.png" alt=""></a></div>
-                            <!-- <div> <a href="#"><img src="./images/table.png" alt=""></a></div> -->
-                            <!-- <div> <a href="#"><img src="./images/패키지.png" alt=""></a></div> -->
-
-
+                            <div class="hov2"> <a href="#"><img src="./images/table.png" alt=""></a></div>
+                            <div class="hov3"> <a href="#"><img src="./images/hanbok400.png" alt=""></a></div>
+                            <div class="hov4"> <a href="#"><img src="./images/table2.png" alt=""></a></div>
                         </div>
                     </article>
                     <!-- <article class="text">
@@ -136,6 +151,17 @@
 
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".slider").bxSlider({
+                slideWidth: 1398
+            });
+
+
+        });
+    </script>
 
     <script src="./js/jquery-3.7.0.min.js"></script>
     <script>
